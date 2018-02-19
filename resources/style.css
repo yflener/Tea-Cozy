@@ -1,0 +1,140 @@
+/**Tea Cozy Project - 02-18-2018**/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, Sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+/**header and navigation**/
+header {
+  background-color: black;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.container {
+  height: 50px;
+}
+
+ul {
+ display: flex;
+ flex-direction: flex-end;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
+/**Main Content**/
+.main {
+  margin: 0 auto;
+  position: relative;
+  top: 69px;
+}
+/**Mission Banner with Background Image**/
+.banner-image {
+  background-image: url("../resources/image/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  background-color: black;
+  flex: 1;
+}
+/**Content Gallery**/
+.content-main {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.content-gallery {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.content-gallery-pic {
+  padding: 10px;
+}
+/**Locations with background image**/
+.content-locations-image {
+  background-image: url("../resources/image/img-locations-background.jpg");
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 500px;
+}
+
+.content-locations-image h2 {
+  padding-top: 15px;
+}
+
+.box-wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around; 
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+ }
+/**footer**/
+.footer-boxes {
+  width: 100%
+}
+.footer-box {
+  height: 200px;
+  text-align: center;
+}
+
+.footer-box-copy {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content-title {
+  flex-grow: 1;
+}
+.content-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
